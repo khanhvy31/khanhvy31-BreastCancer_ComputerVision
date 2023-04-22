@@ -1,2 +1,16 @@
-# khanhvy31-BreastCancer_DeepLearning
-To achieve cutting-edge results, the system will be trained using a combination of pre-processing and data augmentation and state-of-the-art models
+According to the center for diseases control and prevention, each year in the United States, about 264,000 cases of breast cancer are diagnosed in women and about 2,400 in men. About 42,000 women and 500 men in the U.S. die each year from breast cancer [2]. Different people will have different symptoms, however, some will not have symptom at all, which makes the diagnosis process challenging. One of the main challenges in breast cancer detection is accurately identifying tumors in medical images, such as mammograms. This task can be time-consuming and subject to human error, as tumors can be small and difficult to distinguish from other benign masses or dense breast tissue. Which will lead to false negatives. It occurs when a mammogram misses a cancerous tumor. This can delay diagnosis and treatment, potentially allowing the tumor to grow and spread.
+
+The aim of this project proposal is to create a deep learning-based system for breast cancer diagnosis using different deep learning methods. The suggested system will provide a solution that identifies breast tumours as benign or malignant directly from pixel space, such as mammograms, to identify and classify potential breast cancer tumors with high precision, sensitivity, and specificity and eliminate the requirement for manual intervention and reducing the danger of human error. 
+To achieve cutting-edge results, the system will be trained using a combination of pre-processing and data augmentation and state-of-the-art models. Furthermore, the study intends to make the model's predictions more interpretable, allowing physicians to better understand the decision-making process and improve patient outcomes. 
+The project's overall goal is to increase the efficiency and accuracy of breast cancer screening by using different metrics such as confusion metrics, AUC, potentially saving lives. 
+
+The dataset is from Kaggle [3], RSNA Screening Mammography Breast Cancer Detection, and the dataset is a collection of anonymized mammography images and their associated metadata. The dataset contains over 30,000 images, with each image being a grayscale image of a breast. The images are in DICOM format, which is a standard format for medical images. The metadata associated with each image includes the patient ID, the laterality of the breast (left or right), and whether the mammogram was diagnosed as positive or negative for breast cancer. The dataset also includes age and breast density information for each patient.
+![Screen Shot 2023-04-21 at 10 26 14 PM](https://user-images.githubusercontent.com/67845910/233757127-9a1bb8df-d300-466f-a87e-f611997b5ac0.png)
+
+
+
+[1] Lévy, Daniel, and Arzav Jain. “Breast Mass Classification from Mammograms Using Deep Convolutional Neural Networks.” ArXiv.org, 2 Dec. 2016, https://arxiv.org/abs/1612.00542. 
+
+[2] Centers for Disease Control and Prevention. (2022, September 26). Basic information about breast cancer. Centers for Disease Control and Prevention. Retrieved March 14, 2023, from https://www.cdc.gov/cancer/breast/basic_info/index.htm 
+
+[3] RSNA Screening Mammography Breast Cancer Detection. Kaggle. (n.d.). Retrieved March 14, 2023, from https://www.kaggle.com/competitions/rsna-breast-cancer-detection/data 
